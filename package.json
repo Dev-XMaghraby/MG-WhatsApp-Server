@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "maghray_bot",
+  "version": "1.0.0",
+  "description": "WhatsappServer",
+  "main": "./build/index.js",
+  "author": "Maghraby",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn tsc",
+    "bundle": "yarn ncc cache clean && yarn ncc build ./build/index.js",
+    "test": "node ./test/main.js",
+    "expose": "yarn build && yarn bundle && node ./scripts/expose.js",
+    "start": "yarn build && yarn bundle && yarn copy && node ./dist/index.js",
+    "dev": "yarn build && node ./build/index.js test",
+    "copy": "node ./scripts/static.js",
+    "compile": "yarn build && yarn bundle"
+  },
+  "dependencies": {
+    "@google/genai": "^0.7.0",
+    "@hapi/boom": "^10.0.1",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/nedb": "^1.8.16",
+    "@types/node": "^22.13.13",
+    "@vercel/ncc": "^0.38.3",
+    "baileys": "^6.7.16",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nedb": "^1.8.0",
+    "pino": "^9.6.0",
+    "rimraf": "^6.0.1",
+    "socket.io": "^4.8.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.2",
+    "zip-a-folder": "^3.1.9"
+  }
+}

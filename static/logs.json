@@ -1,0 +1,90 @@
+{"level":30,"time":1743153292320,"pid":19068,"hostname":"DESKTOP-I9CNPSU","msg":"Server started on port localhost:3131 ..."}
+{"level":30,"time":1743154167757,"pid":9784,"hostname":"DESKTOP-I9CNPSU","msg":"Server started on port localhost:3131 ..."}
+{"level":30,"time":1743154211454,"pid":12060,"hostname":"DESKTOP-I9CNPSU","msg":"Server started on port localhost:3131 ..."}
+{"level":30,"time":1743154214443,"pid":12060,"hostname":"DESKTOP-I9CNPSU","msg":"req: GET | /ping"}
+{"level":30,"time":1743164997200,"pid":19020,"hostname":"DESKTOP-I9CNPSU","msg":"Maghraby bot started..."}
+{"level":30,"time":1743164997202,"pid":19020,"hostname":"DESKTOP-I9CNPSU","msg":"Server started on port localhost:3131 ..."}
+{"level":30,"time":1743165074298,"pid":15512,"hostname":"DESKTOP-I9CNPSU","state":true,"existance":false}
+{"level":30,"time":1743165074311,"pid":15512,"hostname":"DESKTOP-I9CNPSU","msg":"Maghraby bot started..."}
+{"level":30,"time":1743165074312,"pid":15512,"hostname":"DESKTOP-I9CNPSU","msg":"Server started on port localhost:3131 ..."}
+{"level":30,"time":1743165130295,"pid":20084,"hostname":"DESKTOP-I9CNPSU","msg":"Maghraby bot started..."}
+{"level":30,"time":1743165130298,"pid":20084,"hostname":"DESKTOP-I9CNPSU","msg":"Server started on port localhost:3131 ..."}
+{"level":30,"time":1743165147158,"pid":20084,"hostname":"DESKTOP-I9CNPSU","msg":"req: GET | /ping"}
+{"level":30,"time":1743165152548,"pid":20084,"hostname":"DESKTOP-I9CNPSU","msg":"req: GET | /code/201066858979"}
+{"level":30,"time":1743165212174,"pid":10316,"hostname":"DESKTOP-I9CNPSU","msg":"Maghraby bot started..."}
+{"level":30,"time":1743165212176,"pid":10316,"hostname":"DESKTOP-I9CNPSU","msg":"Server started on port localhost:3131 ..."}
+{"level":30,"time":1743165252491,"pid":10316,"hostname":"DESKTOP-I9CNPSU","msg":"req: GET | /code/201066858979"}
+{"level":50,"time":1743165252494,"pid":10316,"hostname":"DESKTOP-I9CNPSU","msg":"Couldn't get code from whatsapp"}
+{"level":30,"time":1743165264615,"pid":10316,"hostname":"DESKTOP-I9CNPSU","msg":"req: GET | /code/201066858979"}
+{"level":50,"time":1743165264616,"pid":10316,"hostname":"DESKTOP-I9CNPSU","msg":"Couldn't get code from whatsapp"}
+{"level":30,"time":1743165384426,"pid":16312,"hostname":"DESKTOP-I9CNPSU","msg":"Server started on port localhost:3131 ..."}
+{"level":30,"time":1743165384624,"pid":16312,"hostname":"DESKTOP-I9CNPSU","msg":"Maghraby bot started..."}
+{"level":30,"time":1743165464759,"pid":21248,"hostname":"DESKTOP-I9CNPSU","msg":"Server started on port localhost:3131 ..."}
+{"level":30,"time":1743165464935,"pid":21248,"hostname":"DESKTOP-I9CNPSU","msg":"Maghraby bot started..."}
+{"level":30,"time":1743165798062,"pid":10636,"hostname":"DESKTOP-I9CNPSU","msg":"initializing WhatsApp..."}
+{"level":30,"time":1743165798064,"pid":10636,"hostname":"DESKTOP-I9CNPSU","msg":"Server started on port localhost:3131 ..."}
+{"level":30,"time":1743165798223,"pid":10636,"hostname":"DESKTOP-I9CNPSU","msg":"Maghraby bot started..."}
+{"level":30,"time":1743165798225,"pid":10636,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743165798225,"pid":10636,"hostname":"DESKTOP-I9CNPSU"}
+{"level":30,"time":1743165845243,"pid":14552,"hostname":"DESKTOP-I9CNPSU","msg":"initializing WhatsApp..."}
+{"level":30,"time":1743165845246,"pid":14552,"hostname":"DESKTOP-I9CNPSU","msg":"Server started on port localhost:3131 ..."}
+{"level":30,"time":1743165845405,"pid":14552,"hostname":"DESKTOP-I9CNPSU","msg":"Maghraby bot started..."}
+{"level":30,"time":1743165845409,"pid":14552,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743165845409,"pid":14552,"hostname":"DESKTOP-I9CNPSU"}
+{"level":30,"time":1743165846450,"pid":14552,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743165846450,"pid":14552,"hostname":"DESKTOP-I9CNPSU"}
+{"level":30,"time":1743165855167,"pid":14552,"hostname":"DESKTOP-I9CNPSU","msg":"req: GET | /code/201066858979"}
+{"level":30,"time":1743165889401,"pid":14552,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743165889401,"pid":14552,"hostname":"DESKTOP-I9CNPSU"}
+{"level":30,"time":1743165889795,"pid":14552,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743165889795,"pid":14552,"hostname":"DESKTOP-I9CNPSU","error":{"data":{"tag":"stream:error","attrs":{"code":"515"}},"isBoom":true,"isServer":true,"output":{"statusCode":515,"payload":{"statusCode":515,"error":"Unknown","message":"Stream Errored (restart required)"},"headers":{}}},"date":"2025-03-28T12:44:49.795Z"}
+{"level":30,"time":1743165889799,"pid":14552,"hostname":"DESKTOP-I9CNPSU","msg":"initializing WhatsApp..."}
+{"level":30,"time":1743165889807,"pid":14552,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743165889807,"pid":14552,"hostname":"DESKTOP-I9CNPSU"}
+{"level":30,"time":1743165890984,"pid":14552,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743165890984,"pid":14552,"hostname":"DESKTOP-I9CNPSU"}
+{"level":30,"time":1743165891482,"pid":14552,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743165891482,"pid":14552,"hostname":"DESKTOP-I9CNPSU"}
+{"level":30,"time":1743166048898,"pid":18312,"hostname":"DESKTOP-I9CNPSU","msg":"initializing WhatsApp..."}
+{"level":30,"time":1743166048901,"pid":18312,"hostname":"DESKTOP-I9CNPSU","msg":"Server started on port localhost:3131 ..."}
+{"level":30,"time":1743166049058,"pid":18312,"hostname":"DESKTOP-I9CNPSU","msg":"Maghraby bot started..."}
+{"level":30,"time":1743166049061,"pid":18312,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743166049061,"pid":18312,"hostname":"DESKTOP-I9CNPSU"}
+{"level":30,"time":1743166049568,"pid":18312,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743166049568,"pid":18312,"hostname":"DESKTOP-I9CNPSU"}
+{"level":30,"time":1743166071159,"pid":18312,"hostname":"DESKTOP-I9CNPSU","msg":"req: GET | /code/201066858979"}
+{"level":30,"time":1743166109589,"pid":18312,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743166109590,"pid":18312,"hostname":"DESKTOP-I9CNPSU"}
+{"level":30,"time":1743166111265,"pid":18312,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743166111266,"pid":18312,"hostname":"DESKTOP-I9CNPSU"}
+{"level":30,"time":1743166111619,"pid":18312,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743166111620,"pid":18312,"hostname":"DESKTOP-I9CNPSU","error":{"data":{"tag":"stream:error","attrs":{"code":"515"}},"isBoom":true,"isServer":true,"output":{"statusCode":515,"payload":{"statusCode":515,"error":"Unknown","message":"Stream Errored (restart required)"},"headers":{}}},"date":"2025-03-28T12:48:31.619Z"}
+{"level":30,"time":1743166111623,"pid":18312,"hostname":"DESKTOP-I9CNPSU","msg":"initializing WhatsApp..."}
+{"level":40,"time":1743166111630,"pid":18312,"hostname":"DESKTOP-I9CNPSU","msg":"Disconnected.."}
+{"level":30,"time":1743166111630,"pid":18312,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743166111631,"pid":18312,"hostname":"DESKTOP-I9CNPSU"}
+{"level":30,"time":1743166112516,"pid":18312,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743166112517,"pid":18312,"hostname":"DESKTOP-I9CNPSU"}
+{"level":30,"time":1743166112890,"pid":18312,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743166112891,"pid":18312,"hostname":"DESKTOP-I9CNPSU"}
+{"level":30,"time":1743166112891,"pid":18312,"hostname":"DESKTOP-I9CNPSU","msg":"Connected..."}
+{"level":30,"time":1743166362267,"pid":21224,"hostname":"DESKTOP-I9CNPSU","msg":"initializing WhatsApp..."}
+{"level":30,"time":1743166362271,"pid":21224,"hostname":"DESKTOP-I9CNPSU","msg":"Server started on port localhost:3131 ..."}
+{"level":30,"time":1743166362376,"pid":21224,"hostname":"DESKTOP-I9CNPSU","msg":"Maghraby bot started..."}
+{"level":30,"time":1743166362379,"pid":21224,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743166362380,"pid":21224,"hostname":"DESKTOP-I9CNPSU"}
+{"level":30,"time":1743166363196,"pid":21224,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743166363197,"pid":21224,"hostname":"DESKTOP-I9CNPSU"}
+{"level":30,"time":1743166363367,"pid":21224,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743166363368,"pid":21224,"hostname":"DESKTOP-I9CNPSU"}
+{"level":30,"time":1743166363369,"pid":21224,"hostname":"DESKTOP-I9CNPSU","msg":"UPDATE"}
+{"level":30,"time":1743166363369,"pid":21224,"hostname":"DESKTOP-I9CNPSU"}
+{"level":30,"time":1743166363369,"pid":21224,"hostname":"DESKTOP-I9CNPSU","msg":"Connected..."}
+{"level":30,"time":1743166527330,"pid":20992,"hostname":"DESKTOP-I9CNPSU","msg":"initializing WhatsApp..."}
+{"level":30,"time":1743166527333,"pid":20992,"hostname":"DESKTOP-I9CNPSU","msg":"Server started on port localhost:3131 ..."}
+{"level":30,"time":1743166527442,"pid":20992,"hostname":"DESKTOP-I9CNPSU","msg":"Maghraby bot started..."}
+{"level":30,"time":1743166527445,"pid":20992,"hostname":"DESKTOP-I9CNPSU","msg":"connection updated.."}
+{"level":30,"time":1743166528612,"pid":20992,"hostname":"DESKTOP-I9CNPSU","msg":"connection updated.."}
+{"level":30,"time":1743166528780,"pid":20992,"hostname":"DESKTOP-I9CNPSU","msg":"connection updated.."}
+{"level":30,"time":1743166528781,"pid":20992,"hostname":"DESKTOP-I9CNPSU","msg":"connection updated.."}
+{"level":30,"time":1743166528782,"pid":20992,"hostname":"DESKTOP-I9CNPSU","msg":"Connected..."}

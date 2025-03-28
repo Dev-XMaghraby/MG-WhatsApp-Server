@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Static files
+static/*/**
+
+# Distribution files
+dist/*/**
+
+# Build output
+build/*/**
