@@ -9,3 +9,4 @@ dist/*/**
 
 # Build output
 build/*/**
+dist.zip
