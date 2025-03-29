@@ -1,35 +1,36 @@
 # Maghraby WhatsApp Server
 
-### This is a WhatsApp server optimized for mobile phones (Android) that makes you controll your WhatsApp account via unofficial client Apps
+### A WhatsApp server optimized for mobile phones (Android) that allows you to control your WhatsApp account via unofficial client apps.
 
 ## Requirements
 
-* NodeJS installed
-* Any system supports nodejs (tested on windows x64 & Linux arm64)
+- Node.js installed
+- Any system that supports Node.js (tested on Windows x64 & Linux arm64)
 
 ## Installation & Run
 
-It's super easy to install and run you jsut have to download, unzip and run
+It's super easy to install and run. Just download, unzip, and run:
 
 ```bash
-!#/bin/bash
-# Download latest release
-wget ${LATEST RELEASE}
-# Unzip
-tar -xvf MaghrabyBot.zip
-cd MaghrabyBot/
-# Run with nodejs
+#!/bin/bash
+# Download the latest release
+wget <LATEST_RELEASE_URL>
+
+# Unzip the downloaded file
+unzip latest.zip
+
+# Run the server using Node.js
 node ./dist/index.js
 ```
 
-## Guid
+## Guide
 
-> It's my first project so, you are welcome to contribute
+> This is my first project, so contributions are welcome!
 
-### Build
+### Build Process
 
 ```bash
-# Build TypeScript files
+# Compile TypeScript files
 yarn build
 
 # Bundle the application
@@ -38,10 +39,10 @@ yarn bundle
 # Run tests
 yarn test
 
-# Build, bundle and expose
+# Build, bundle, and expose the app
 yarn expose
 
-# Build, bundle, copy static files and start
+# Build, bundle, copy static files, and start the app
 yarn start
 
 # Build and run in development mode
@@ -54,15 +55,29 @@ yarn copy
 yarn compile
 ```
 
-## End-points
+## API Endpoints
 
-`/code/${phone_number}  #GET`
+### Authentication
 
-for login
+**Login:**
 
-`/send/${phone_number}  #POST`
+```http
+GET /code/{phone_number}
+```
 
-send messages, body example:
+### Messaging
 
-`{"msg": "Example Message"}`
+**Send a message:**
+
+```http
+POST /send/{phone_number}
+```
+
+**Request body example:**
+
+```json
+{
+  "msg": "Example Message"
+}
+```
 
