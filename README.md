@@ -53,3 +53,16 @@ yarn copy
 # Build and bundle the application
 yarn compile
 ```
+
+## End-points
+
+`/code/${phone_number}  #GET`
+
+for login
+
+`/send/${phone_number}  #POST`
+
+send messages, body example:
+
+`{"msg": "Example Message"}`
+
