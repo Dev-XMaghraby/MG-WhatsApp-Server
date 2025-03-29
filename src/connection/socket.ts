@@ -1,4 +1,3 @@
-//IMPROVE: handle Errors
 import { createServer } from 'http';
 import { Server } from 'socket.io';
 import { Logger } from '../utils/logger';
