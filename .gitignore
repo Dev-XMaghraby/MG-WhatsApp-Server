@@ -6,10 +6,8 @@ static/
 static/**/*
 
 # Distribution files
-dist/
 dist/**/*
 
 # Build output
-build/
 build/**/*
 dist.zip
