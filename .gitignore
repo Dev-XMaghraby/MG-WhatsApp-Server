@@ -2,11 +2,14 @@
 node_modules/
 
 # Static files
-static/*/**
+static/
+static/**/*
 
 # Distribution files
-dist/*/**
+dist/
+dist/**/*
 
 # Build output
-build/*/**
+build/
+build/**/*
 dist.zip
