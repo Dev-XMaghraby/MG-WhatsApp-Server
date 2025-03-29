@@ -41,8 +41,7 @@ export class WhatsAppConnection extends WaSocket {
                 if (lastDisconnect) {
                     const shouldReconnect = (lastDisconnect?.error as Boom).output || (lastDisconnect?.error as Boom).output?.statusCode !== DisconnectReason.loggedOut;
                     if (shouldReconnect || !isOnline) {
-                        //TODO: Log
-                        //BUG
+                        this.mLogger.log("reconnecting...")
                         await this.init();
                     }
                 }
@@ -100,7 +99,7 @@ export class WhatsAppConnection extends WaSocket {
                 throw new Error("Jid not found");
             }
         } catch (error) {
-            handleError({ error, date: Utils.getFormattedDate(), level: "unexpected" });
+            handleError({ error, date: Utils.getFormattedDate(), level: "ignore" });
         }
     }
     async sendTextMessage(phone: string, message: string) {
@@ -109,7 +108,7 @@ export class WhatsAppConnection extends WaSocket {
             const msg = await this.waSocket?.sendMessage(jid, { text: message });
             return msg
         } catch (error) {
-            handleError({ error, date: Utils.getFormattedDate(), level: "unexpected" });
+            handleError({ error, date: Utils.getFormattedDate(), level: "expected" });
         }
     }
     async sendAudioMessage(phone: string, audioPath: string) {
@@ -121,7 +120,7 @@ export class WhatsAppConnection extends WaSocket {
             });
             return msg
         } catch (error) {
-            handleError({ error, date: Utils.getFormattedDate(), level: "unexpected" });
+            handleError({ error, date: Utils.getFormattedDate(), level: "expected" });
         }
     }
     async sendDocMessage(phone: string, docPath: string) {
@@ -133,7 +132,7 @@ export class WhatsAppConnection extends WaSocket {
             });
             return msg
         } catch (error) {
-            handleError({ error, date: Utils.getFormattedDate(), level: "unexpected" });
+            handleError({ error, date: Utils.getFormattedDate(), level: "expected" });
         }
     }
     async sendImageMessage(phone: string, imagePath: string) {
@@ -144,7 +143,7 @@ export class WhatsAppConnection extends WaSocket {
             });
             return msg
         } catch (error) {
-            handleError({ error, date: Utils.getFormattedDate(), level: "unexpected" });
+            handleError({ error, date: Utils.getFormattedDate(), level: "expected"});
         }
     }
     async sendGifMessage(phone: string, gifPath: string) {
@@ -156,7 +155,7 @@ export class WhatsAppConnection extends WaSocket {
             });
             return msg
         } catch (error) {
-            handleError({ error, date: Utils.getFormattedDate(), level: "unexpected" });
+            handleError({ error, date: Utils.getFormattedDate(), level: "expected" });
         }
     }
     async sendStickerMessage(phone: string, stickerPath: string) {
@@ -167,7 +166,7 @@ export class WhatsAppConnection extends WaSocket {
             });
             return msg
         } catch (error) {
-            handleError({ error, date: Utils.getFormattedDate(), level: "unexpected" });
+            handleError({ error, date: Utils.getFormattedDate(), level: "expected" });
         }
     }
     getMessageType(message: WAMessage): "text" | "image" | "audio" | "document" | "status" | null {

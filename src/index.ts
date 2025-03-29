@@ -1,4 +1,3 @@
-//IMPROVE: handle errors
 import { WAMessage } from "baileys";
 import { initialize } from "./config/init";
 import { HttpService } from "./connection/express";
@@ -9,13 +8,12 @@ import { Controller, MessageHandler } from "./models";
 import { Logger } from "./utils/logger";
 import { Utils } from "./utils/utils";
 import { Prefs } from "./config/prefs";
+import { handleError } from "./utils/error";
 async function main(bot: MaghrabyBot) {
     try {
         await bot.start();
     } catch (error) {
-        const logger = Logger.getInstance();
-        logger.error(error as Error);
-        logger.log("Error happened, restarting after 5 seconds...");
+        handleError({error, date: Utils.getFormattedDate(), level:"expected"});
         await Utils.delay(5);
         await main(new MaghrabyBot);
     }
