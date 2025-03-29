@@ -3,7 +3,7 @@ import { initialize } from "./config/init";
 import { HttpService } from "./connection/express";
 import { IOServer } from "./connection/socket";
 import { WhatsAppConnection } from "./connection/whatsapp";
-import { ControllerFactory } from "./controllers/ControllerFactory";
+import { ControllerFactory, Controllers } from "./controllers/ControllerFactory";
 import { Controller, MessageHandler } from "./models";
 import { Logger } from "./utils/logger";
 import { Utils } from "./utils/utils";
@@ -47,15 +47,12 @@ class MaghrabyBot implements MessageHandler{
     private async init(){
         await this.whatsapp.init();
         this.whatsapp.addObserver(this);
+        const contrller_names: Controllers[] = ['logger', 'test', 'code', 'message', 'ai'];
         const controller_factory = new ControllerFactory();
-        const logController: Controller = controller_factory.creteController("logger");
-        const testController: Controller = controller_factory.creteController("test");
-        const authController: Controller = controller_factory.creteController("code");
-        const msgController: Controller = controller_factory.creteController("message")
-        this.server.addController(logController);
-        this.server.addController(testController);
-        this.server.addController(authController);
-        this.server.addController(msgController);
+        for (const name of contrller_names) {
+            const controller: Controller = controller_factory.creteController(name);
+            this.server.addController(controller);
+        }
     }
     public async start(){
         await this.init();
